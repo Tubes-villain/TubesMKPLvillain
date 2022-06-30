@@ -32,7 +32,7 @@ public class matriks_transpose {
             }
         }
         
-        System.out.println("Hasil transpose matriks: ");
+        System.out.println("Hasil transpose matriks : ");
         for(loop_i = 0; loop_i < b; loop_i++){
             for(loop_j = 0; loop_j < a; loop_j++){
                 System.out.print(transpose[loop_i][loop_j] + " ");
