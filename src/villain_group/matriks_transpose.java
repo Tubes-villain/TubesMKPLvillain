@@ -20,7 +20,7 @@ public class matriks_transpose {
         System.out.println("Matriks 3 Baris x 2 Kolom (A= 3 x B= 2) : ");
         System.out.println("Isi Matriks : ");
         
-        for(loop_i = 0; loop_i < a; loop_i++){
+        for( = 0; loop_i < a; loop_i++){
             for(loop_j = 0; loop_j < b; loop_j++){
                 matriks[loop_i][loop_j] = scan.nextInt();
             }
