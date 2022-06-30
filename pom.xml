@@ -1,14 +1,28 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
- 
-  <groupId>VillainProjectMaven</groupId>
-  <artifactId>VillainProject</artifactId>
-  <version>2.0</version>
-  <packaging>pom</packaging>
+  <groupId>contohprojectmaven</groupId>
+  <artifactId>contohproject</artifactId>
+  <version>0.1.1</version>
+
+<dependencies>
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.11</version> <!-- Or whatever JUnit you're using. -->
+	</dependency>
+</dependencies>
+
+<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/Tubes-villain/TubesMKPLvillain</url>
+    </repository>
+  </distributionManagement>
   
   <properties>
-  	<sonar.organization>ihsanasfarii</sonar.organization>
-  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  </properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+ </properties>
+  
 </project>
