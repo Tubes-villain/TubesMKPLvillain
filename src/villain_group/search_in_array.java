@@ -67,7 +67,7 @@ public class search_in_array {
             
         }
         if (cek == false) {
-           System.out.println("Angka yang dicari tidak ada");
+           System.out.println("Angka tidak ada");
         }
     }
 }
